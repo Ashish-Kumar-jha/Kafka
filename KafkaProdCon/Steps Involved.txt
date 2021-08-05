@@ -1,0 +1,27 @@
+Download Apache Kafka: https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.12-2.8.0.tgz
+
+step 1: Extract It.
+
+step 2: Edit :: Config --- server.properties
+        log.dirs=C:/kafka/kafka-logs(Edited log.dirs)
+
+step 3: Edit :: Config --- Zookeper.properties
+        dataDir=C:/kafka/zookeeper-data(Edited dataDir)
+
+step 4: Make sure there is no space in Environment valiable java Path, if it has space then give java folder name with no space
+      From:
+        c:\Program files\java\java_16\bin
+      To:
+        c:\java\java_16\bin
+
+step 6: Run Zookeeper in CMD (C:\kafka)
+       .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+step 7:Run Kafka(C:\kafka)
+       .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+step 8: Create spring project with kafka and starter web dependency
+
+step 9: create three packages (Controller,Consumer,Producer)
+     
+
