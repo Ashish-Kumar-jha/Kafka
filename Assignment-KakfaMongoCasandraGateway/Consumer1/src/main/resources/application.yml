@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CONSUMER1
+  main.banner-mode: off
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
