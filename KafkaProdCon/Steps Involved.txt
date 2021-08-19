@@ -33,7 +33,38 @@ System variable -> JAVA_HOME -> C:\Java\jdk-16.0.1
  System var -> path C:\Java\jdk-16.0.1\bin    
 
 
+You12:05 PM
+https://www.youtube.com/watch?v=103MUpnyrvk
+Ravi Thapa12:14 PM
+1.  123 = 321
+
+2. Lenght of string in js
+
+3. palindrome no
+4. a=2 b=3 replace
+Ravi Thapa12:15 PM
+swapping
+Ravi Thapa12:17 PM
+https://ireport.software.informer.com/download/
+Hrushikesh Pollai12:21 PM
+how to use Thread.dump()
+
+
+//CASSANDRA
+CREATE KEYSPACE ConsumerCassandra
+   ... WITH replication= {'class':'SimpleStrategy','replication_factor' : 3};
+
+SHOW DATABASE : DESCRIBE keyspaces;
+USE DATABASE/KEYSPACE :use consumercassandra;
+CREATE TABLE :
+CREATE TABLE Consumer2(
+                     ... id int PRIMARY KEY,
+                     ... sms text);
+cqlsh:consumercassandra> select * from consumer2;
 
 java --add-opens=java.base/sun.nio.ch=ALL-UNNAMED \
     -jar target/kafdrop-<version>.jar \
     --kafka.brokerConnect=<host:port,host:port>,...
+
+
+C:\Users\Para SF>cqlsh
