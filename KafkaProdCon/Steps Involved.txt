@@ -35,19 +35,6 @@ System variable -> JAVA_HOME -> C:\Java\jdk-16.0.1
 
 You12:05 PM
 https://www.youtube.com/watch?v=103MUpnyrvk
-Ravi Thapa12:14 PM
-1.  123 = 321
-
-2. Lenght of string in js
-
-3. palindrome no
-4. a=2 b=3 replace
-Ravi Thapa12:15 PM
-swapping
-Ravi Thapa12:17 PM
-https://ireport.software.informer.com/download/
-Hrushikesh Pollai12:21 PM
-how to use Thread.dump()
 
 
 //CASSANDRA
